@@ -4,10 +4,14 @@ This project is step by step guide for some new features of es6 with nodejs.
 It's better to setup webpack first so that it's easier to see all the changes on browser instantly.
 
 Step 1: Create a new node project and initialize it by using 
+```
 npm init -y
+```
 
 Step 2: install webpack by using
+```
 npm install --save-dev webpack
+```
 
 Step 3: Create webpack.config.js
 
@@ -25,20 +29,29 @@ Step 9: Your webpack is ready to rock :) But this is a static page. Also, your c
 To resolve that we need webpack dev server.
 
 Step 10: Install webpack dev server by using
+```
 npm install --save-dev webpack-dev-server
+```
 
 step 11: Now, go back to webpack.config.js. Please uncomment or add devServer property as following
+```
 devServer: {
         port:3001,
         contentBase: './src',
         inline: true
     }
-    
-Step 12: Package.json file has already an entry for start script as following "start": "webpack-dev-server".
+```    
+Step 12: Package.json file has already an entry for start script as following 
+```
+"start": "webpack-dev-server"
+```
 
 Step 13: Run npm start
 
-Step 14: Go to browser and type http://localhost:3001
+Step 14: Go to browser and type 
+```
+http://localhost:3001
+```
 
 Step 15: You should see 'Hello'.
 
