@@ -63,7 +63,3 @@ let employee1 = person;
 console.log(employee1.salary);
 //undefined 
 ```
-
-
-
-
